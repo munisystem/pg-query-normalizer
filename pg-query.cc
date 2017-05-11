@@ -1,9 +1,4 @@
-#include <nan.h>
-
-NAN_METHOD(normalize)
-{
-    info.GetReturnValue().Set(Nan::New("Hello pg-query-normalizer!!").ToLocalChecked());
-}
+#include "normalize.h"
 
 NAN_MODULE_INIT(init)
 {
