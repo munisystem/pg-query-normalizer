@@ -1,0 +1,17 @@
+{
+  "name": "pg-query-normalizer",
+  "version": "0.0.1",
+  "description": "Normalize PostgreSQL query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PostgreSQL",
+    "psql",
+    "query",
+    "normalize"
+  ],
+  "author": "munisystem",
+  "license": "MIT"
+}
