@@ -1,3 +1,4 @@
+'use strict'
 const pgn = require('./build/Release/pg-query');
 const fs = require('fs');
 
