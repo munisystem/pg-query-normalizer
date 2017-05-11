@@ -19,7 +19,6 @@ NAN_METHOD(normalize) {
   PgQueryNormalizeResult result = pg_query_normalize(*query);
 
   v8::Local<v8::String> normalized = Nan::New(result.normalized_query).ToLocalChecked();
-  printf("%s\n", "segfo");
   pg_query_free_normalize_result(result);
 
   info.GetReturnValue().Set(normalized);
