@@ -4,7 +4,7 @@
   "description": "Normalize PostgreSQL query.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-gyp build"
   },
   "keywords": [
     "PostgreSQL",
@@ -13,5 +13,9 @@
     "normalize"
   ],
   "author": "munisystem",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.6.2",
+    "node-gyp": "^3.6.1"
+  }
 }
