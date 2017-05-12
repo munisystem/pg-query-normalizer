@@ -4,6 +4,7 @@
   "description": "Normalize PostgreSQL query.",
   "main": "index.js",
   "scripts": {
+    "test": "mocha test.js",
     "build": "node-gyp build"
   },
   "keywords": [
@@ -17,5 +18,8 @@
   "dependencies": {
     "nan": "^2.6.2",
     "node-gyp": "^3.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
   }
 }
