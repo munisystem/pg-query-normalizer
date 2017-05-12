@@ -2,6 +2,7 @@
 Normalize PostgreSQL Query.
 
 This is using C library of [libpg_query](https://github.com/lfittl/libpg_query).
+
 Thanks [Lukas Fittl](https://github.com/lfittl).
 
 ## Install
