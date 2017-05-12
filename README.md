@@ -7,13 +7,13 @@ Thanks [Lukas Fittl](https://github.com/lfittl).
 ## Install
 
 ```bash
-$ npm install --save pgn
+$ npm install --save pg-query-normalizer
 ```
 
 ## Usage
 ```js
 'use strict';
-const pgn = require('pgn');
+const pgn = require('pg-query-normalizer');
 
 const query = "SELECT username FROM Users WHERE id IN(1, 2, 3, 5, 8, 11);"
 console.log(pgn(query));
